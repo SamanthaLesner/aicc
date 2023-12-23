@@ -1,0 +1,10 @@
+# Environments
+# .env
+# .venv
+# env/
+# venv/
+ccvenv
+data
+
+# VS Code
+.vscode/
