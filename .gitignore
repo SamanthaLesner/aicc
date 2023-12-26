@@ -5,6 +5,8 @@
 # venv/
 ccvenv
 data
+deps
 
 # VS Code
 .vscode/
+
