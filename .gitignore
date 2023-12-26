@@ -4,6 +4,7 @@
 # env/
 # venv/
 ccvenv
+aicc_venv
 data
 deps
 
