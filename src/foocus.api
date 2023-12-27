@@ -1,0 +1,394 @@
+Loaded as API: https://94a9c3f057c59efb26.gradio.live/ ✔
+Client.predict() Usage Info
+---------------------------
+Named API endpoints: 0
+
+Unnamed API endpoints: 37
+
+ - predict(fn_index=0) -> (value_14, value_15)
+    Parameters:
+     - None
+    Returns:
+     - [Button] value_14: str 
+     - [Button] value_15: str 
+
+ - predict(fn_index=1) -> 
+    Parameters:
+     - None
+    Returns:
+     - None
+
+ - predict(type, fn_index=2) -> (stop_at, weight)
+    Parameters:
+     - [Radio] type: str 
+    Returns:
+     - [Slider] stop_at: int | float (numeric value between 0.0 and 1.0) 
+     - [Slider] weight: int | float (numeric value between 0.0 and 2.0) 
+
+ - predict(type, fn_index=3) -> (stop_at, weight)
+    Parameters:
+     - [Radio] type: str 
+    Returns:
+     - [Slider] stop_at: int | float (numeric value between 0.0 and 1.0) 
+     - [Slider] weight: int | float (numeric value between 0.0 and 2.0) 
+
+ - predict(type, fn_index=4) -> (stop_at, weight)
+    Parameters:
+     - [Radio] type: str 
+    Returns:
+     - [Slider] stop_at: int | float (numeric value between 0.0 and 1.0) 
+     - [Slider] weight: int | float (numeric value between 0.0 and 2.0) 
+
+ - predict(type, fn_index=5) -> (stop_at, weight)
+    Parameters:
+     - [Radio] type: str 
+    Returns:
+     - [Slider] stop_at: int | float (numeric value between 0.0 and 1.0) 
+     - [Slider] weight: int | float (numeric value between 0.0 and 2.0) 
+
+ - predict(advanced, fn_index=6) -> (type, type, type, type, stop_at, stop_at, stop_at, stop_at, weight, weight, weight, weight)
+    Parameters:
+     - [Checkbox] advanced: bool 
+    Returns:
+     - [Radio] type: str 
+     - [Radio] type: str 
+     - [Radio] type: str 
+     - [Radio] type: str 
+     - [Slider] stop_at: int | float (numeric value between 0.0 and 1.0) 
+     - [Slider] stop_at: int | float (numeric value between 0.0 and 1.0) 
+     - [Slider] stop_at: int | float (numeric value between 0.0 and 1.0) 
+     - [Slider] stop_at: int | float (numeric value between 0.0 and 1.0) 
+     - [Slider] weight: int | float (numeric value between 0.0 and 2.0) 
+     - [Slider] weight: int | float (numeric value between 0.0 and 2.0) 
+     - [Slider] weight: int | float (numeric value between 0.0 and 2.0) 
+     - [Slider] weight: int | float (numeric value between 0.0 and 2.0) 
+
+ - predict(fn_index=7) -> inpaint_additional_prompt
+    Parameters:
+     - None
+    Returns:
+     - [Textbox] inpaint_additional_prompt: str 
+
+ - predict(input_image, fn_index=8) -> 
+    Parameters:
+     - [Checkbox] input_image: bool 
+    Returns:
+     - None
+
+ - predict(fn_index=9) -> 
+    Parameters:
+     - None
+    Returns:
+     - None
+
+ - predict(fn_index=10) -> value_83
+    Parameters:
+     - None
+    Returns:
+     - [Textbox] value_83: str 
+
+ - predict(fn_index=11) -> value_83
+    Parameters:
+     - None
+    Returns:
+     - [Textbox] value_83: str 
+
+ - predict(fn_index=12) -> value_83
+    Parameters:
+     - None
+    Returns:
+     - [Textbox] value_83: str 
+
+ - predict(fn_index=13) -> value_83
+    Parameters:
+     - None
+    Returns:
+     - [Textbox] value_83: str 
+
+ - predict(random, fn_index=14) -> seed
+    Parameters:
+     - [Checkbox] random: bool 
+    Returns:
+     - [Textbox] seed: str 
+
+ - predict(fn_index=15) -> selected_styles
+    Parameters:
+     - None
+    Returns:
+     - [Checkboxgroup] selected_styles: List[str] 
+
+ - predict(selected_styles, search_styles, fn_index=16) -> selected_styles
+    Parameters:
+     - [Checkboxgroup] selected_styles: List[str] 
+     - [Textbox] search_styles: str 
+    Returns:
+     - [Checkboxgroup] selected_styles: List[str] 
+
+ - predict(fn_index=17) -> 
+    Parameters:
+     - None
+    Returns:
+     - None
+
+ - predict(selected_styles, fn_index=18) -> selected_styles
+    Parameters:
+     - [Checkboxgroup] selected_styles: List[str] 
+    Returns:
+     - [Checkboxgroup] selected_styles: List[str] 
+
+ - predict(fn_index=19) -> 
+    Parameters:
+     - None
+    Returns:
+     - None
+
+ - predict(refiner_sdxl_or_sd_15, fn_index=20) -> refiner_switch_at
+    Parameters:
+     - [Dropdown] refiner_sdxl_or_sd_15: str (Option from: ['None']) 
+    Returns:
+     - [Slider] refiner_switch_at: int | float (numeric value between 0.1 and 1.0) 
+
+ - predict(developer_debug_mode, fn_index=21) -> 
+    Parameters:
+     - [Checkbox] developer_debug_mode: bool 
+    Returns:
+     - None
+
+ - predict(fn_index=22) -> (base_model_sdxl_only, refiner_sdxl_or_sd_15, lora_1, weight, lora_2, weight, lora_3, weight, lora_4, weight, lora_5, weight)
+    Parameters:
+     - None
+    Returns:
+     - [Dropdown] base_model_sdxl_only: str (Option from: []) 
+     - [Dropdown] refiner_sdxl_or_sd_15: str (Option from: ['None']) 
+     - [Dropdown] lora_1: str (Option from: ['None']) 
+     - [Slider] weight: int | float (numeric value between -2 and 2) 
+     - [Dropdown] lora_2: str (Option from: ['None']) 
+     - [Slider] weight: int | float (numeric value between -2 and 2) 
+     - [Dropdown] lora_3: str (Option from: ['None']) 
+     - [Slider] weight: int | float (numeric value between -2 and 2) 
+     - [Dropdown] lora_4: str (Option from: ['None']) 
+     - [Slider] weight: int | float (numeric value between -2 and 2) 
+     - [Dropdown] lora_5: str (Option from: ['None']) 
+     - [Slider] weight: int | float (numeric value between -2 and 2) 
+
+ - predict(performance, fn_index=23) -> (guidance_scale, image_sharpness, adm_guidance_end_at_step, positive_adm_guidance_scaler, negative_adm_guidance_scaler, refiner_switch_at, refiner_sdxl_or_sd_15, sampler, scheduler, cfg_mimicking_from_tsnr, refiner_swap_method, negative_prompt)
+    Parameters:
+     - [Radio] performance: str 
+    Returns:
+     - [Slider] guidance_scale: int | float (numeric value between 1.0 and 30.0) 
+     - [Slider] image_sharpness: int | float (numeric value between 0.0 and 30.0) 
+     - [Slider] adm_guidance_end_at_step: int | float (numeric value between 0.0 and 1.0) 
+     - [Slider] positive_adm_guidance_scaler: int | float (numeric value between 0.1 and 3.0) 
+     - [Slider] negative_adm_guidance_scaler: int | float (numeric value between 0.1 and 3.0) 
+     - [Slider] refiner_switch_at: int | float (numeric value between 0.1 and 1.0) 
+     - [Dropdown] refiner_sdxl_or_sd_15: str (Option from: ['None']) 
+     - [Dropdown] sampler: str (Option from: ['euler', 'euler_ancestral', 'heun', 'heunpp2', 'dpm_2', 'dpm_2_ancestral', 'lms', 'dpm_fast', 'dpm_adaptive', 'dpmpp_2s_ancestral', 'dpmpp_sde', 'dpmpp_sde_gpu', 'dpmpp_2m', 'dpmpp_2m_sde', 'dpmpp_2m_sde_gpu', 'dpmpp_3m_sde', 'dpmpp_3m_sde_gpu', 'ddpm', 'lcm', 'ddim', 'uni_pc', 'uni_pc_bh2']) 
+     - [Dropdown] scheduler: str (Option from: ['normal', 'karras', 'exponential', 'sgm_uniform', 'simple', 'ddim_uniform', 'lcm', 'turbo']) 
+     - [Slider] cfg_mimicking_from_tsnr: int | float (numeric value between 1.0 and 30.0) 
+     - [Dropdown] refiner_swap_method: str (Option from: ['joint', 'separate', 'vae']) 
+     - [Textbox] negative_prompt: str 
+
+ - predict(advanced, fn_index=24) -> 
+    Parameters:
+     - [Checkbox] advanced: bool 
+    Returns:
+     - None
+
+ - predict(fn_index=25) -> 
+    Parameters:
+     - None
+    Returns:
+     - None
+
+ - predict(method, fn_index=26) -> (inpaint_additional_prompt, outpaint_direction, disable_initial_latent_in_inpaint, inpaint_engine, inpaint_denoising_strength, inpaint_respective_field)
+    Parameters:
+     - [Dropdown] method: str (Option from: ['Inpaint or Outpaint (default)', 'Improve Detail (face, hand, eyes, etc.)', 'Modify Content (add objects, change background, etc.)']) 
+    Returns:
+     - [Textbox] inpaint_additional_prompt: str 
+     - [Checkboxgroup] outpaint_direction: List[str] 
+     - [Checkbox] disable_initial_latent_in_inpaint: bool 
+     - [Dropdown] inpaint_engine: str (Option from: ['None', 'v1', 'v2.5', 'v2.6']) 
+     - [Slider] inpaint_denoising_strength: int | float (numeric value between 0.0 and 1.0) 
+     - [Slider] inpaint_respective_field: int | float (numeric value between 0.0 and 1.0) 
+
+ - predict(parameter_10, fn_index=27) -> (value_10, value_12, value_13)
+    Parameters:
+     - [Textbox] parameter_10: str 
+    Returns:
+     - [Textbox] value_10: str 
+     - [Button] value_12: str 
+     - [Button] value_13: str 
+
+ - predict(parameter_10, fn_index=28) -> (advanced, image_number, value_10, negative_prompt, selected_styles, performance, aspect_ratios, forced_overwrite_of_generating_width, forced_overwrite_of_generating_height, image_sharpness, guidance_scale, positive_adm_guidance_scaler, negative_adm_guidance_scaler, adm_guidance_end_at_step, base_model_sdxl_only, refiner_sdxl_or_sd_15, refiner_switch_at, sampler, scheduler, random, seed, value_12, value_13, lora_1, weight, lora_2, weight, lora_3, weight, lora_4, weight, lora_5, weight)
+    Parameters:
+     - [Textbox] parameter_10: str 
+    Returns:
+     - [Checkbox] advanced: bool 
+     - [Slider] image_number: int | float (numeric value between 1 and 32) 
+     - [Textbox] value_10: str 
+     - [Textbox] negative_prompt: str 
+     - [Checkboxgroup] selected_styles: List[str] 
+     - [Radio] performance: str 
+     - [Radio] aspect_ratios: str 
+     - [Slider] forced_overwrite_of_generating_width: int | float (numeric value between -1 and 2048) 
+     - [Slider] forced_overwrite_of_generating_height: int | float (numeric value between -1 and 2048) 
+     - [Slider] image_sharpness: int | float (numeric value between 0.0 and 30.0) 
+     - [Slider] guidance_scale: int | float (numeric value between 1.0 and 30.0) 
+     - [Slider] positive_adm_guidance_scaler: int | float (numeric value between 0.1 and 3.0) 
+     - [Slider] negative_adm_guidance_scaler: int | float (numeric value between 0.1 and 3.0) 
+     - [Slider] adm_guidance_end_at_step: int | float (numeric value between 0.0 and 1.0) 
+     - [Dropdown] base_model_sdxl_only: str (Option from: []) 
+     - [Dropdown] refiner_sdxl_or_sd_15: str (Option from: ['None']) 
+     - [Slider] refiner_switch_at: int | float (numeric value between 0.1 and 1.0) 
+     - [Dropdown] sampler: str (Option from: ['euler', 'euler_ancestral', 'heun', 'heunpp2', 'dpm_2', 'dpm_2_ancestral', 'lms', 'dpm_fast', 'dpm_adaptive', 'dpmpp_2s_ancestral', 'dpmpp_sde', 'dpmpp_sde_gpu', 'dpmpp_2m', 'dpmpp_2m_sde', 'dpmpp_2m_sde_gpu', 'dpmpp_3m_sde', 'dpmpp_3m_sde_gpu', 'ddpm', 'lcm', 'ddim', 'uni_pc', 'uni_pc_bh2']) 
+     - [Dropdown] scheduler: str (Option from: ['normal', 'karras', 'exponential', 'sgm_uniform', 'simple', 'ddim_uniform', 'lcm', 'turbo']) 
+     - [Checkbox] random: bool 
+     - [Textbox] seed: str 
+     - [Button] value_12: str 
+     - [Button] value_13: str 
+     - [Dropdown] lora_1: str (Option from: ['None']) 
+     - [Slider] weight: int | float (numeric value between -2 and 2) 
+     - [Dropdown] lora_2: str (Option from: ['None']) 
+     - [Slider] weight: int | float (numeric value between -2 and 2) 
+     - [Dropdown] lora_3: str (Option from: ['None']) 
+     - [Slider] weight: int | float (numeric value between -2 and 2) 
+     - [Dropdown] lora_4: str (Option from: ['None']) 
+     - [Slider] weight: int | float (numeric value between -2 and 2) 
+     - [Dropdown] lora_5: str (Option from: ['None']) 
+     - [Slider] weight: int | float (numeric value between -2 and 2) 
+
+ - predict(fn_index=29) -> (value_15, value_14, value_12, gallery)
+    Parameters:
+     - None
+    Returns:
+     - [Button] value_15: str 
+     - [Button] value_14: str 
+     - [Button] value_12: str 
+     - [Gallery] gallery: str (path to directory with images and a file associating images with captions called captions.json) 
+
+ - predict(random, seed, fn_index=30) -> seed
+    Parameters:
+     - [Checkbox] random: bool 
+     - [Textbox] seed: str 
+    Returns:
+     - [Textbox] seed: str 
+
+ - predict(disable_preview, positive_adm_guidance_scaler, negative_adm_guidance_scaler, adm_guidance_end_at_step, cfg_mimicking_from_tsnr, sampler, scheduler, generate_image_grid_for_each_batch, forced_overwrite_of_sampling_step, forced_overwrite_of_refiner_switch_step, forced_overwrite_of_generating_width, forced_overwrite_of_generating_height, forced_overwrite_of_denoising_strength_of_vary, forced_overwrite_of_denoising_strength_of_upscale, mixing_image_prompt_and_varyupscale, mixing_image_prompt_and_inpaint, debug_preprocessors, skip_preprocessors, softness_of_controlnet, canny_low_threshold, canny_high_threshold, refiner_swap_method, enabled, b1, b2, s1, s2, debug_inpaint_preprocessing, disable_initial_latent_in_inpaint, inpaint_engine, inpaint_denoising_strength, inpaint_respective_field, fn_index=31) -> 
+    Parameters:
+     - [Checkbox] disable_preview: bool 
+     - [Slider] positive_adm_guidance_scaler: int | float (numeric value between 0.1 and 3.0) 
+     - [Slider] negative_adm_guidance_scaler: int | float (numeric value between 0.1 and 3.0) 
+     - [Slider] adm_guidance_end_at_step: int | float (numeric value between 0.0 and 1.0) 
+     - [Slider] cfg_mimicking_from_tsnr: int | float (numeric value between 1.0 and 30.0) 
+     - [Dropdown] sampler: str (Option from: ['euler', 'euler_ancestral', 'heun', 'heunpp2', 'dpm_2', 'dpm_2_ancestral', 'lms', 'dpm_fast', 'dpm_adaptive', 'dpmpp_2s_ancestral', 'dpmpp_sde', 'dpmpp_sde_gpu', 'dpmpp_2m', 'dpmpp_2m_sde', 'dpmpp_2m_sde_gpu', 'dpmpp_3m_sde', 'dpmpp_3m_sde_gpu', 'ddpm', 'lcm', 'ddim', 'uni_pc', 'uni_pc_bh2']) 
+     - [Dropdown] scheduler: str (Option from: ['normal', 'karras', 'exponential', 'sgm_uniform', 'simple', 'ddim_uniform', 'lcm', 'turbo']) 
+     - [Checkbox] generate_image_grid_for_each_batch: bool 
+     - [Slider] forced_overwrite_of_sampling_step: int | float (numeric value between -1 and 200) 
+     - [Slider] forced_overwrite_of_refiner_switch_step: int | float (numeric value between -1 and 200) 
+     - [Slider] forced_overwrite_of_generating_width: int | float (numeric value between -1 and 2048) 
+     - [Slider] forced_overwrite_of_generating_height: int | float (numeric value between -1 and 2048) 
+     - [Slider] forced_overwrite_of_denoising_strength_of_vary: int | float (numeric value between -1 and 1.0) 
+     - [Slider] forced_overwrite_of_denoising_strength_of_upscale: int | float (numeric value between -1 and 1.0) 
+     - [Checkbox] mixing_image_prompt_and_varyupscale: bool 
+     - [Checkbox] mixing_image_prompt_and_inpaint: bool 
+     - [Checkbox] debug_preprocessors: bool 
+     - [Checkbox] skip_preprocessors: bool 
+     - [Slider] softness_of_controlnet: int | float (numeric value between 0.0 and 1.0) 
+     - [Slider] canny_low_threshold: int | float (numeric value between 1 and 255) 
+     - [Slider] canny_high_threshold: int | float (numeric value between 1 and 255) 
+     - [Dropdown] refiner_swap_method: str (Option from: ['joint', 'separate', 'vae']) 
+     - [Checkbox] enabled: bool 
+     - [Slider] b1: int | float (numeric value between 0 and 2) 
+     - [Slider] b2: int | float (numeric value between 0 and 2) 
+     - [Slider] s1: int | float (numeric value between 0 and 4) 
+     - [Slider] s2: int | float (numeric value between 0 and 4) 
+     - [Checkbox] debug_inpaint_preprocessing: bool 
+     - [Checkbox] disable_initial_latent_in_inpaint: bool 
+     - [Dropdown] inpaint_engine: str (Option from: ['None', 'v1', 'v2.5', 'v2.6']) 
+     - [Slider] inpaint_denoising_strength: int | float (numeric value between 0.0 and 1.0) 
+     - [Slider] inpaint_respective_field: int | float (numeric value between 0.0 and 1.0) 
+    Returns:
+     - None
+
+ - predict(parameter_10, negative_prompt, selected_styles, performance, aspect_ratios, image_number, seed, image_sharpness, guidance_scale, base_model_sdxl_only, refiner_sdxl_or_sd_15, refiner_switch_at, lora_1, weight, lora_2, weight, lora_3, weight, lora_4, weight, lora_5, weight, input_image, parameter_83, upscale_or_variation, drag_above_image_to_here, outpaint_direction, drag_above_image_to_here, inpaint_additional_prompt, image, stop_at, weight, type, image, stop_at, weight, type, image, stop_at, weight, type, image, stop_at, weight, type, fn_index=32) -> (value_6, preview, finished_images, gallery)
+    Parameters:
+     - [Textbox] parameter_10: str 
+     - [Textbox] negative_prompt: str 
+     - [Checkboxgroup] selected_styles: List[str] 
+     - [Radio] performance: str 
+     - [Radio] aspect_ratios: str 
+     - [Slider] image_number: int | float (numeric value between 1 and 32) 
+     - [Textbox] seed: str 
+     - [Slider] image_sharpness: int | float (numeric value between 0.0 and 30.0) 
+     - [Slider] guidance_scale: int | float (numeric value between 1.0 and 30.0) 
+     - [Dropdown] base_model_sdxl_only: str (Option from: []) 
+     - [Dropdown] refiner_sdxl_or_sd_15: str (Option from: ['None']) 
+     - [Slider] refiner_switch_at: int | float (numeric value between 0.1 and 1.0) 
+     - [Dropdown] lora_1: str (Option from: ['None']) 
+     - [Slider] weight: int | float (numeric value between -2 and 2) 
+     - [Dropdown] lora_2: str (Option from: ['None']) 
+     - [Slider] weight: int | float (numeric value between -2 and 2) 
+     - [Dropdown] lora_3: str (Option from: ['None']) 
+     - [Slider] weight: int | float (numeric value between -2 and 2) 
+     - [Dropdown] lora_4: str (Option from: ['None']) 
+     - [Slider] weight: int | float (numeric value between -2 and 2) 
+     - [Dropdown] lora_5: str (Option from: ['None']) 
+     - [Slider] weight: int | float (numeric value between -2 and 2) 
+     - [Checkbox] input_image: bool 
+     - [Textbox] parameter_83: str 
+     - [Radio] upscale_or_variation: str 
+     - [Image] drag_above_image_to_here: str (filepath or URL to image) 
+     - [Checkboxgroup] outpaint_direction: List[str] 
+     - [Image] drag_above_image_to_here: str (filepath or URL to image) 
+     - [Textbox] inpaint_additional_prompt: str 
+     - [Image] image: str (filepath or URL to image) 
+     - [Slider] stop_at: int | float (numeric value between 0.0 and 1.0) 
+     - [Slider] weight: int | float (numeric value between 0.0 and 2.0) 
+     - [Radio] type: str 
+     - [Image] image: str (filepath or URL to image) 
+     - [Slider] stop_at: int | float (numeric value between 0.0 and 1.0) 
+     - [Slider] weight: int | float (numeric value between 0.0 and 2.0) 
+     - [Radio] type: str 
+     - [Image] image: str (filepath or URL to image) 
+     - [Slider] stop_at: int | float (numeric value between 0.0 and 1.0) 
+     - [Slider] weight: int | float (numeric value between 0.0 and 2.0) 
+     - [Radio] type: str 
+     - [Image] image: str (filepath or URL to image) 
+     - [Slider] stop_at: int | float (numeric value between 0.0 and 1.0) 
+     - [Slider] weight: int | float (numeric value between 0.0 and 2.0) 
+     - [Radio] type: str 
+    Returns:
+     - [Html] value_6: str 
+     - [Image] preview: str (filepath or URL to image) 
+     - [Gallery] finished_images: str (path to directory with images and a file associating images with captions called captions.json) 
+     - [Gallery] gallery: str (path to directory with images and a file associating images with captions called captions.json) 
+
+ - predict(fn_index=33) -> (value_12, value_15, value_14)
+    Parameters:
+     - None
+    Returns:
+     - [Button] value_12: str 
+     - [Button] value_15: str 
+     - [Button] value_14: str 
+
+ - predict(fn_index=34) -> 
+    Parameters:
+     - None
+    Returns:
+     - None
+
+ - predict(fn_index=35) -> 
+    Parameters:
+     - None
+    Returns:
+     - None
+
+ - predict(content_type, drag_any_image_to_here, fn_index=36) -> (value_10, selected_styles)
+    Parameters:
+     - [Radio] content_type: str 
+     - [Image] drag_any_image_to_here: str (filepath or URL to image) 
+    Returns:
+     - [Textbox] value_10: str 
+     - [Checkboxgroup] selected_styles: List[str] 
+
+None

@@ -1,0 +1,6 @@
+opencv-python
+numpy
+Pillow
+
+# gradio_client
+websocket-client

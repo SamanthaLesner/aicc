@@ -1,0 +1,51 @@
+    Parameters:
+     - [Textbox] parameter_10: str 
+     - [Textbox] negative_prompt: str 
+     - [Checkboxgroup] selected_styles: List[str] 
+     - [Radio] performance: str 
+     - [Radio] aspect_ratios: str 
+     - [Slider] image_number: int | float (numeric value between 1 and 32) 
+     - [Textbox] seed: str 
+     - [Slider] image_sharpness: int | float (numeric value between 0.0 and 30.0) 
+     - [Slider] guidance_scale: int | float (numeric value between 1.0 and 30.0) 
+     - [Dropdown] base_model_sdxl_only: str (Option from: []) 
+     - [Dropdown] refiner_sdxl_or_sd_15: str (Option from: ['None']) 
+     - [Slider] refiner_switch_at: int | float (numeric value between 0.1 and 1.0) 
+     - [Dropdown] lora_1: str (Option from: ['None']) 
+     - [Slider] weight: int | float (numeric value between -2 and 2) 
+     - [Dropdown] lora_2: str (Option from: ['None']) 
+     - [Slider] weight: int | float (numeric value between -2 and 2) 
+     - [Dropdown] lora_3: str (Option from: ['None']) 
+     - [Slider] weight: int | float (numeric value between -2 and 2) 
+     - [Dropdown] lora_4: str (Option from: ['None']) 
+     - [Slider] weight: int | float (numeric value between -2 and 2) 
+     - [Dropdown] lora_5: str (Option from: ['None']) 
+     - [Slider] weight: int | float (numeric value between -2 and 2) 
+     - [Checkbox] input_image: bool 
+     - [Textbox] parameter_83: str 
+     - [Radio] upscale_or_variation: str 
+     - [Image] drag_above_image_to_here: str (filepath or URL to image) 
+     - [Checkboxgroup] outpaint_direction: List[str] 
+     - [Image] drag_above_image_to_here: str (filepath or URL to image) 
+     - [Textbox] inpaint_additional_prompt: str 
+     - [Image] image: str (filepath or URL to image) 
+     - [Slider] stop_at: int | float (numeric value between 0.0 and 1.0) 
+     - [Slider] weight: int | float (numeric value between 0.0 and 2.0) 
+     - [Radio] type: str 
+     - [Image] image: str (filepath or URL to image) 
+     - [Slider] stop_at: int | float (numeric value between 0.0 and 1.0) 
+     - [Slider] weight: int | float (numeric value between 0.0 and 2.0) 
+     - [Radio] type: str 
+     - [Image] image: str (filepath or URL to image) 
+     - [Slider] stop_at: int | float (numeric value between 0.0 and 1.0) 
+     - [Slider] weight: int | float (numeric value between 0.0 and 2.0) 
+     - [Radio] type: str 
+     - [Image] image: str (filepath or URL to image) 
+     - [Slider] stop_at: int | float (numeric value between 0.0 and 1.0) 
+     - [Slider] weight: int | float (numeric value between 0.0 and 2.0) 
+     - [Radio] type: str 
+    Returns:
+     - [Html] value_6: str 
+     - [Image] preview: str (filepath or URL to image) 
+     - [Gallery] finished_images: str (path to directory with images and a file associating images with captions called captions.json) 
+     - [Gallery] gallery: str (path to directory with images and a file associating images with captions called captions.json) 
