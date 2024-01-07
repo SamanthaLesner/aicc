@@ -11,10 +11,13 @@ def save_contours(output_template):
     
     # Convert image to grayscale and apply threshold
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-    _, binary = cv2.threshold(gray, 245, 255, cv2.THRESH_BINARY_INV)
+    most_common_pixel_value = np.argmax(np.bincount(gray.flatten()))
+    threshold_value = int(0.90 * most_common_pixel_value)
+
+    _, binary = cv2.threshold(gray, threshold_value, 255, cv2.THRESH_BINARY_INV)
 
     # Remove lines narrower than 8 pixels
-    kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (3, 3))
+    kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (2, 2))
     opened = cv2.morphologyEx(binary, cv2.MORPH_OPEN, kernel)
     contours, _ = cv2.findContours(opened, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 

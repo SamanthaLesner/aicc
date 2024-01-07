@@ -8,7 +8,7 @@ def save_contours(image_path, output_folder):
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
     # Thresholding to get binary image
-    _, binary = cv2.threshold(gray, 240, 255, cv2.THRESH_BINARY_INV)
+    _, binary = cv2.threshold(gray, 220, 255, cv2.THRESH_BINARY_INV)
 
     # Find contours
     contours, _ = cv2.findContours(binary, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
@@ -44,7 +44,7 @@ def save_contours(image_path, output_folder):
 
         # Convert to PIL format and save the image
         final_image = Image.fromarray(cv2.cvtColor(white_background, cv2.COLOR_BGR2RGB))
-        final_image.save(f"{output_folder}/image_{i}_split3.png")
+        final_image.save(f"{output_folder}/image_{i}_penguin_split3.png")
 
 # Example usage
-save_contours('/home/lenny/aicc/data/girl.jpg', 'data/output_folder3')
+save_contours('/home/lenny/aicc/data/penguin.png', 'data/output_folder')

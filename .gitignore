@@ -7,6 +7,8 @@ ccvenv
 aicc_venv
 data
 deps
+env
+_old
 
 # VS Code
 .vscode/

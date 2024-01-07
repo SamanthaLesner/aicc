@@ -2,14 +2,20 @@ import websocket
 import json
 import sys
 import hashlib
+import os
 
-host = '868dda56045d60c8ae.gradio.live'
+# host = os.getenv('FOOOCUS_HOST')
+# if host is None:
+#     print("FOOOCUS_HOST environment variable is not set")
+#     sys.exit(1)
+
+host="c9fdc76a5546e30a1e.gradio.live"
+
 last_message=""
 
 def on_message(ws, message):
-    # print("Received Message:")
-    # print(message)
-    # last_message = message
+    print("Received Message:")
+    print(message)
     global last_message
     last_message = message
     
@@ -112,7 +118,7 @@ if __name__ == "__main__":
                                     "Pragma": "no-cache",
                                     #"Origin": "https://" + host ,
                                     "Accept-Language": "en-US,en;q=0.9,ja-JP;q=0.8,ja;q=0.7",
-                                    "Sec-WebSocket-Key": "u2O/a1GBsrr5Obq73BzSPA==",
+                                    # "Sec-WebSocket-Key": "u2O/a1GBsrr5Obq73BzSPA==",
                                     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",
                                     "Upgrade": "websocket",
                                     "Cache-Control": "no-cache",
